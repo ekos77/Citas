@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+    .table{
+
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 25px;
+letter-spacing: -1.6px;
+word-spacing: 0.2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+        background:#8ba987 url('img/BB1fEol0.jfif') no-repeat center center;
+        background-size:100% 100%;
+		background-size: cover;  
+		min-height: 400px;      
+	background-color: transparent !important;
+    }
+table, td, th{
+	border:none !important;
+}
+
+table{
+	background-color: transparent !important;
+	/*border-top-right-radius: 5px;*/
+	/*border-bottom-right-radius: 5px;*/
+	/*border-radius: 30px;*/
+
+}
+table:hover{
+  opacity: 0.5;
+}
+
+.hero-text-1 {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  right: 5%;
+  /*transform: translate(-50%, -1%);*/
+  color: white;
+  z-index: 100;
+  background-color: black;
+  padding-top: 0;
+}
+
+
+.hero-text-2 {
+  text-align: left;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  right: 5%;
+  /*transform: translate(-50%, -50%);*/
+  color: white;
+  background-color: red;
+    z-index: 100;
+    font-size: 13px;
+}
+
+
+.hero-text-3 {
+  text-align: left;
+  font-size: 15px;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  /*transform: translate(-50%, -50%);*/
+  color: white;
+  background-color: blue;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  z-index: 50;
+}
+
+.shadown-sm{
+-webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75); 
+box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+/*option {
+  background-color:#3b5998;
+  color: #ffffff;
+}*/
+</style>
+
+
+    <title>Fake News Chile</title>
+  </head>
+  <body>
+
+<div class="container">
+    <h1 class="my-4" style=" 
+/*font-size: 25px;*/
+letter-spacing: -2px;
+/*word-spacing: -2px; */
+color: #3b5998;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;">Fake News Chile - Generador</h1>
+
+
+
+  <div class="row align-items-center border shadown-sm" style="border-radius: 10px;">
+<div class="col-4" >
+
+<form>
+  <div class="form-group pt-4">
+    <label for="File1" class="text-muted">Jpg, Png, Gif, jfif, Webm</label>
+    <input type="file" class="form-control-file" id="File1"> 
+  </div>
+  <div class="form-group">
+<input class="form-control form-control-sm" type="text" placeholder="Primer contenido" id="cont1">
+  </div>
+  <div class="form-group">
+<input class="form-control form-control-sm" type="text" placeholder="Segundo contenido" id="cont2">
+  </div>
+ 
+<!-- <div class="form-check">
+  <input class="form-check-input mr-1" type="checkbox" value="" id="check1" checked>
+  <label class="form-check-label" for="check1">
+    En vivo
+  </label>
+</div> -->
+
+
+
+
+
+<div class="form-group row">
+<!-- <label for="staticEmail" class="col-sm-2 col-form-label">Email</label> -->
+<div class="col-6">
+
+    <div class="form-group">
+      <!-- <label for="inputState">Estilo</label> -->
+      <select id="inputState" class="form-control form-control-sm">
+        <option selected>Escoger estilo...</option>
+        <option value="tvn">TVN</option>
+        <option value="mega">MEGA</option>
+        <option value="chilev">CHILEVISIÓN</option>
+      </select>
+    </div>
+
+
+</div>
+<div class="col-6">
+
+  <div class="form-group">
+<input class="form-control form-control-sm" type="text" placeholder="Fecha/Hora" id="fechaHora">
+  </div>
+</div>
+
+<div class="col-12">
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="check1" value="option1" checked>
+  <label class="form-check-label" for="check1">Vivo</label>
+</div>
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="check2" value="option2" checked>
+  <label class="form-check-label" for="check2">Fecha</label>
+</div>
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="check3" value="option2" checked>
+  <label class="form-check-label" for="check3">Ajustar</label>
+</div>
+</div>
+</div>
+
+
+
+
+ 
+</form>
+
+
+<p class="text-justify pt-3" style="font-size: 15px;
+/*letter-spacing: -1.6px;*/
+/*word-spacing: -1.2px;*/
+/*color: #3b5998;*/
+/*font-weight: 700;*/
+text-decoration: none;
+/*font-style: normal;*/
+/*font-variant: normal;*/
+text-transform: uppercase;">
+	
+
+	Esta aplicación está destinada a la diversión,
+	el humor y la parodia. ¡Diviértete y diviérte a los demas amablemente!
+	<br>
+	<br>
+	<left><a href="#" id="descargar" class="btn btn-success" style=" border-bottom-left-radius: 0px; background-color: #3b5998;">Descargar</a></left>
+</p>
+		
+	</div>
+<div class="col-8" >
+<div class="table-responsive">
+<table class="table my-2" border="1" id="imagen">
+<thead>
+  <tr>
+    <th id="vivo" >EN VIVO</th>
+    <th >&nbsp;</th>
+    <th >&nbsp;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="3" class="hero-text-1">Escriba algún contenido</td>
+  </tr>
+  <tr>
+    <td colspan="3"  class="hero-text-2">Escriba algún contenido</td>
+  </tr>
+  <tr >
+    <td class="hero-text-3 fechaHora" colspan="3" >ABRIL 2021</td>
+  </tr>
+</tbody>
+</table>
+	</div>
+	</div>
+
+
+
+
+<!--     <div class="col-4" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div class="col-8 img">
+<div class="card img-fluid bg-dark text-white">
+  <img class="card-img img-fluid" src="img/20976374.gif" alt="Card image" style="height: auto; background-image: url('img/20976374.gif');">
+  <div class="card-img-overlay img-fluid">
+    <h3 class="card-title" style="font-family: Impact, Charcoal, sans-serif;"><span class="p-2" style="background-color: red;">vivo</span></h3>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text align-bottom">Last updated 3 mins ago</p>
+  </div>
+
+</div>
+  </div> -->
+  </div>
+  <p class="text-center py-3"><strong>FakeNews</strong> github.com/ekos77 <strong>2020</strong></p>
+
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  ></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+
+$(document).ready(function(){
+
+
+  $.getJSON("estilos.json", function(json) {
+        $.each(json, function(a, b) {
+            // console.log("Color b.BackColor: " + b.SubCats[0]['Descrip']);
+            // console.log("Color b.BackColor: " + b.SubCat[0]['Descrip']);
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+function readURL(input) {
+  if (input.files && input.files[0]) { //Revisamos que el input tenga contenido
+    var reader = new FileReader(); //Leemos el contenido
+    
+$('#check3').prop("checked",true);
+    reader.onload = function(e) { //Al cargar el contenido lo pasamos como atributo de la imagen de arriba
+      // $('#blah').attr('src', e.target.result);
+      // $('table').css('src', 'e.target.result');
+      // $("table").css({"background-color": "yellow", "font-size": "200%"});
+      $(".table").css({"background":"#8ba987 url('"+e.target.result+"') no-repeat center center "});
+      // $(".table").css({"background-size":"100% 100%;"});
+      // $(".table").css({"background-size":"100% 100%"});
+      $(".table").css({"background-size":"cover"});
+      $(".table").css({"min-height":"400px"});
+
+
+ 
+    }
+    
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+
+$("#File1").change(function() { //Cuando el input cambie (se cargue un nuevo archivo) se va a ejecutar de nuevo el cambio de imagen y se verá reflejado.
+  readURL(this);
+});
+
+
+
+
+
+
+
+// #####33333333333333333333333333333333333333333333333333333333333333333
+	$('#check1').change(function(){
+  	if(!$(this).prop('checked')){
+    	$('#vivo').html('&nbsp;');
+      $('#vivo').hide();
+    }else{
+    	$('#vivo').html('VIVO');
+      $('#vivo').show();
+    }
+  })
+	// ##################################################################
+
+	$('#check2').change(function(){
+  	if(!$(this).prop('checked')){
+    	$('.fechaHora').html('ABRIL 2021');
+    	$('.fechaHora').toggleClass('hero-text-3');
+    }else{
+    	$('#fechaHora').html('&nbsp;');
+    	    	$('.fechaHora').toggleClass('hero-text-3');
+
+    }
+  })
+
+
+// ###############################################################################
+
+	$('#check3').change(function(){
+  	if(!$(this).prop('checked')){
+      $(".table").css({"background-size":"100% 100%"});
+    }else{
+      $(".table").css({"background-size":"cover"});
+    }
+  })
+
+// ###############################################################################
+
+
+	$('#cont1').keyup(function(){
+		let id = $(this).val();
+  	if(id == ''){
+		$(".hero-text-1").html("Escriba algún contenido");
+  	}else{
+		$(".hero-text-1").html(id);
+  	}
+  })
+
+// ###############################################################################
+
+
+	$('#cont2').keyup(function(){
+		let id = $(this).val();
+  	if(id == ''){
+		$(".hero-text-2").html("Escriba algún contenido");
+  	}else{
+		$(".hero-text-2").html(id);
+  	}
+  })
+
+// ###############################################################################
+
+
+	$('#fechaHora').keyup(function(){
+		let id = $(this).val();
+  	if(id == ''){
+		$(".hero-text-3").html("Escriba algún contenido");
+  	}else{
+		$(".hero-text-3").html(id);
+  	}
+  })
+
+// ###############################################################################
+
+
+// var element = document.getElementById("#imagen");
+
+// html2canvas(element).then(function(canvas) {
+//     // Export the canvas to its data URI representation
+//     var base64image = canvas.toDataURL("image/png");
+
+//     // Open the image in a new window
+//     window.open(base64image , "_blank");
+// });
+ 
+
+
+
+//Definimos el botón para escuchar su click
+const $boton = document.querySelector("#descargar"), // El botón que desencadena
+  $objetivo = document.querySelector("#imagen"); // A qué le tomamos la fotocanvas
+// Nota: no necesitamos contenedor, pues vamos a descargarla
+
+// Agregar el listener al botón
+$boton.addEventListener("click", () => {
+  html2canvas($objetivo) // Llamar a html2canvas y pasarle el elemento
+    .then(canvas => {
+    	background: '#000000'
+    	// backgroundColor: null;
+      // Cuando se resuelva la promesa traerá el canvas
+      // Crear un elemento <a>
+      let enlace = document.createElement('a');
+      enlace.download = "fake news chile "+new Date().toString();+".png";
+      // Convertir la imagen a Base64
+      enlace.href = canvas.toDataURL("image/png");
+ 
+      enlace.click();
+
+    });
+});
+
+
+
+
+
+
+// ###############################################################################
+
+});
+
+    </script>
+  </body>
+</html>

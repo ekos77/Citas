@@ -1,0 +1,16 @@
+[{
+    "Nombre": "MEGA TV",
+    "Descripcion": "Este Json, describe las caracteristicas de estilo para el tema MEGA TV",
+    "Tabla": [{
+        "SubCatId": 101,
+        "Descrip": "SUBCAT 1",
+        "Nivel": 2,
+        "CatId": 1
+    }],
+    "SubCat": [{
+        "SubCatId": 101,
+        "Descrip": "SUBCAT 2",
+        "Nivel": 2,
+        "CatId": 1
+    }]
+}]
